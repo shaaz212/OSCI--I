@@ -2238,6 +2238,7 @@ body {
   .explore-h1-div {
     display: flex;
     justify-content: center;
+    margin-top: 8rem;
   }
   .explore-main {
     display: flex;
@@ -2276,11 +2277,12 @@ body {
   }
   .vector-1-div {
     margin-left: 0rem;
+    display: none;
   }
   .vector1 {
     flex-shrink: 0;
-    width: 100px;
-    height: 80px;
+    width: 80px;
+    height: 50px;
     background: url(./assets/images/65ce73e1-d3ce-445c-a1e4-bb1e8b570dd0.png)
       no-repeat center;
     background-size: cover;
@@ -2297,7 +2299,7 @@ body {
     background: url(./assets/images/8988be11-0dfb-4f2e-a7c8-8bc336cfc483.png)
       no-repeat center;
     background-size: cover;
-    margin-top: 5rem;
+    margin-top: 13.2rem;
     position: absolute;
   }
 

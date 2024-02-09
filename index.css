@@ -4161,7 +4161,7 @@ body {
   }
   .download-2-side {
     margin-left: 0.5rem;
-    margin-top: -5rem;
+    margin-top: -30rem;
   }
   .download-img {
     flex-shrink: 0;
@@ -4179,7 +4179,7 @@ body {
 .footer{
     height: 170vh;
     position: relative;
-    margin-top: -26rem;
+    margin-top: -41rem;
     background-color: #fff6ef;
     /* background-color: #ff553e; */
 

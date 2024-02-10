@@ -1041,10 +1041,10 @@ body {
 .free {
   position: relative;
   background-color: #fff;
-  height: 140vh;
+  height: 125vh;
 }
 .free-h1-div {
-  margin-top: 10rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
 }

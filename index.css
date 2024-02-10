@@ -571,7 +571,7 @@ body {
   flex-shrink: 0;
   gap: 10px;
   position: relative;
-  width: 358px;
+  width: 410px;
   height: 590px;
   background: url(./assets/images/IMG_20240209_223824_870.png) no-repeat center;
   background-size: cover;
@@ -2478,13 +2478,13 @@ body {
   .white-bg {
     position: relative;
     background-color: #fff;
-    height: 185vh;
+    height: 180vh;
     margin-top: -48rem;
   }
   .wht-bg-h1-div {
     display: flex;
     justify-content: center;
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
   .wht-bg-h1 {
     display: flex;
@@ -2649,7 +2649,7 @@ body {
     flex-shrink: 0;
     flex-basis: auto;
     position: relative;
-    height: 24px;
+    height: 26px;
     color: #ffffff;
     font-family: Poppins, var(--default-font-family);
     font-size: 20px;
@@ -2726,7 +2726,7 @@ body {
     flex-shrink: 0;
     flex-basis: auto;
     position: relative;
-    height: 24px;
+    height: 26px;
     color: #ffffff;
     font-family: Poppins, var(--default-font-family);
     font-size: 20px;
@@ -2769,9 +2769,13 @@ body {
   .rprts-img-div {
     display: flex;
     justify-content: center;
-    margin-left: 2.5rem;
+    margin-left: 0rem;
     left: 0;
-    margin-top: 4rem;
+    margin-top: 0rem;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-right: 1rem;
+    height: 700px;
   }
   .rprts-img {
     display: flex;
@@ -2780,8 +2784,8 @@ body {
     flex-shrink: 0;
     gap: 10px;
     position: relative;
-    width: 300px;
-    height: 500px;
+    width: 410px;
+    height: 600px;
     background: url(./assets/images/IMG_20240209_223824_870.png)
       no-repeat center;
     background-size: cover;

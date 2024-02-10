@@ -1984,6 +1984,8 @@ body {
   z-index: 121;
 }
 .download-2-side {
+    display: flex;
+    justify-content: center;
   margin-left: 5rem;
   margin-top: 0rem;
 }
@@ -4216,7 +4218,9 @@ body {
     z-index: 121;
   }
   .download-2-side {
-    margin-left: 0.1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 0rem;
     margin-top: -30rem;
   }
   .download-img {

@@ -839,6 +839,10 @@ body {
   display: flex;
   gap: 1rem;
 }
+.choose-div{
+    display: flex;
+    gap: 1rem;
+}
 .first-side {
   margin-left: 162px;
 }
@@ -2749,15 +2753,22 @@ body {
   /* reports */
   .rprts {
     position: relative;
-    display: grid;
-    height: 200vh;
     margin-top: 1rem;
+    background-color: #fff;
+    height: 160vh;
+  }
+  .rprts-div{
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px;
+      gap: 4rem;
   }
   .rprts-img-div {
     display: flex;
-    /* margin-left: 2rem; */
-    left: 50%;
-    margin-top: 10rem;
+    justify-content: center;
+    margin-left: 2.5rem;
+    left: 0;
+    margin-top: 4rem;
   }
   .rprts-img {
     display: flex;
@@ -2797,10 +2808,11 @@ body {
     white-space: nowrap;
   }
   .rprts-things-3 {
-    margin-top: 2rem;
+    margin-top: 0rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-left: 1rem;
   }
   .wrapper-6 {
     display: flex;
@@ -3035,11 +3047,19 @@ body {
   .chooose {
     position: relative;
     background-color: #fff;
-    display: grid;
-    height: 130vh;
+    height: 105vh;
+  }
+  .choose-div{
+      display: flex;
+      flex-direction: column;
+      gap: 10rem;
+      margin-top: 0rem;
   }
   .first-side {
-    margin-left: 1rem;
+    margin-left: 2rem;
+  }
+  .first-h1-div{
+    margin-left: 2.5rem;
   }
   .first-h1 {
     display: flex;
@@ -3052,7 +3072,7 @@ body {
     height: 70px;
     color: #272727;
     font-family: Poppins, var(--default-font-family);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 70px;
     text-align: left;
@@ -3061,7 +3081,7 @@ body {
     z-index: 229;
   }
   .choose-3-things {
-    margin-top: 3rem;
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -3199,6 +3219,7 @@ body {
     z-index: 240;
     border-radius: 25px;
     margin-top: 14rem;
+    margin-left: 2.5rem;
   }
   .choose-text {
     flex-shrink: 0;
@@ -3218,7 +3239,7 @@ body {
   .choose-img-div {
     margin-top: 2rem;
     padding-right: 15rem;
-    margin-left: -1.5rem;
+    margin-left: 0rem;
   }
   .choose-img {
     flex-shrink: 0;
@@ -3235,10 +3256,10 @@ body {
   .free {
     position: relative;
     background-color: #fff;
-    height: 130vh;
+    height: 90vh;
   }
   .free-h1-div {
-    margin-top: 20rem;
+    margin-top:3rem;
     display: flex;
     justify-content: center;
   }
@@ -3483,8 +3504,8 @@ body {
   /* testimonials */
   .test {
     position: relative;
-    height: 180vh;
-    margin-top: 5rem;
+    height: 160vh;
+    margin-top: 0rem;
   }
   .test-h1-div {
     display: flex;
@@ -3509,11 +3530,13 @@ body {
     z-index: 62;
   }
   .testimonials-3 {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 3rem;
     margin-top: 7rem;
     position: absolute;
+    margin-left: 1.2rem;
   }
   .section-15 {
     display: flex;

@@ -1041,7 +1041,7 @@ body {
 .free {
   position: relative;
   background-color: #fff;
-  height: 150vh;
+  height: 140vh;
 }
 .free-h1-div {
   margin-top: 10rem;
@@ -1284,9 +1284,9 @@ body {
 
 /* testimonials */
 .test {
-  margin-top: 5rem;
+  margin-top: 1rem;
   position: relative;
-  height: 100vh;
+  height: 76vh;
 }
 .test-h1-div {
   display: flex;
@@ -1314,7 +1314,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 3rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .section-15 {
   display: flex;
@@ -1838,11 +1838,11 @@ body {
 .downlaod {
   position: relative;
   background-color: #fff;
-  height: 150vh;
+  height: 122vh;
   display: flex;
 }
 .downlaod-1-side {
-  margin-top: 10rem;
+  margin-top: 1rem;
 }
 .download-1-h1-div {
   display: flex;
@@ -1911,7 +1911,7 @@ body {
   top: 1px;
   left: 219.95px;
   z-index: 115;
-  margin-top: 30.1rem;
+  margin-top: 21.1rem;
   margin-left: 10.5rem;
 }
 .pic-19 {
@@ -1982,7 +1982,7 @@ body {
 }
 .download-2-side {
   margin-left: 5rem;
-  margin-top: 11.5rem;
+  margin-top: 0rem;
 }
 .download-img {
   flex-shrink: 0;

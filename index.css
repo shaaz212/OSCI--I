@@ -137,8 +137,10 @@ body {
     no-repeat center;
   background-size: cover;
   margin-left: 0rem;
+  left: 0;
 }
 .vector-3-div {
+    display: none;
   margin-top: 5rem;
   position: absolute;
 }
@@ -152,7 +154,12 @@ body {
   position: absolute;
 }
 .mobile-button-div {
-  margin-left: 3rem;
+  display: flex;
+  justify-content: center;
+  height: 76px;
+  width: 248px;
+  margin-left: 7.5rem;
+  left: 50%;
 }
 .mobile-button {
   display: flex;
@@ -179,6 +186,7 @@ body {
 }
 .vector-4-div {
   margin-top: 8rem;
+  margin-left: -3rem;
 }
 .vector4 {
   position: absolute;
@@ -187,6 +195,11 @@ body {
   background: url(./assets/images/2c1e4016-48e6-492a-8cae-b268981231fb.png)
     no-repeat center;
   background-size: cover;
+}
+.mobile-2-div{
+    /* margin-left: 900px; */
+    right: 0;
+    position: absolute;
 }
 .mobile-2 {
   flex-shrink: 0;
@@ -201,7 +214,7 @@ body {
 .white-img {
   position: relative;
   height: 200vh;
-  margin-top: -24rem;
+  margin-top: -25.5rem;
 }
 .bg-img {
   flex-shrink: 0;
@@ -215,9 +228,9 @@ body {
 .text-div {
   display: flex;
   margin-top: -15rem;
-  margin-left: 3rem;
+  margin-left: 7rem;
   position: absolute;
-  gap: 5rem;
+  gap: 7rem;
 }
 .text-1-div {
   display: flex;
@@ -239,7 +252,7 @@ body {
   display: flex;
   position: absolute;
   margin-top: -7rem;
-  margin-left: 3rem;
+  margin-left: 7rem;
   gap: 1rem;
 }
 .img-1 {
@@ -299,6 +312,7 @@ body {
 }
 .things-3 {
   display: flex;
+  justify-content: center;
   margin-left: 3rem;
   margin-top: 4rem;
   gap: 3rem;
@@ -538,12 +552,16 @@ body {
 /* reports */
 .rprts {
   position: relative;
-  display: flex;
   background-color: #fff;
   height: 130vh;
 }
+.rprts-div{
+    display: flex;
+    margin-left: 154px;
+    gap: 12rem;
+}
 .rprts-img-div {
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   margin-top: 5rem;
 }
 .rprts-img {
@@ -559,7 +577,7 @@ body {
   background-size: cover;
 }
 .rprts-things {
-  margin-left: 15rem;
+  /* margin-left: 15rem; */
   margin-top: 7rem;
 }
 .rprts-h1-div {
@@ -637,7 +655,7 @@ body {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  height: 24px;
+  height: 26px;
   color: #000000;
   font-family: Poppins, var(--default-font-family);
   font-size: 20px;
@@ -712,7 +730,7 @@ body {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  height: 24px;
+  height: 26px;
   color: #000000;
   font-family: Poppins, var(--default-font-family);
   font-size: 20px;
@@ -787,7 +805,7 @@ body {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  height: 24px;
+  height: 26px;
   color: #000000;
   font-family: Poppins, var(--default-font-family);
   font-size: 20px;
@@ -819,9 +837,10 @@ body {
   position: relative;
   background-color: #fff;
   display: flex;
+  gap: 1rem;
 }
 .first-side {
-  margin-left: 5rem;
+  margin-left: 162px;
 }
 .first-h1 {
   display: flex;
@@ -830,7 +849,7 @@ body {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 585px;
+  width: 630px;
   height: 70px;
   color: #272727;
   font-family: Poppins, var(--default-font-family);
@@ -956,11 +975,11 @@ body {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
-  width: 189px;
+  width: 200px;
   height: 24px;
   color: #272727;
   font-family: Manrope, var(--default-font-family);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   line-height: 24px;
   text-align: left;
@@ -996,6 +1015,9 @@ body {
   text-transform: capitalize;
   white-space: nowrap;
   z-index: 241;
+}
+.second-side{
+    margin-left: 0;
 }
 .choose-img-div {
   padding-right: 15rem;
@@ -2308,6 +2330,7 @@ body {
     display: flex;
     position: relative;
     margin-top: 2rem;
+    height: 150vh;
   }
   .mobile-1 {
     display: none;
@@ -2385,7 +2408,7 @@ body {
   .white-img {
     position: relative;
     height: 200vh;
-    margin-top: -38rem;
+    margin-top: -60rem;
   }
   .bg-img {
     flex-shrink: 0;
@@ -2732,7 +2755,8 @@ body {
   }
   .rprts-img-div {
     display: flex;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
+    left: 50%;
     margin-top: 10rem;
   }
   .rprts-img {
@@ -2744,7 +2768,7 @@ body {
     position: relative;
     width: 300px;
     height: 500px;
-    background: url(./assets/images/704c54f5-695a-4e21-8a93-19e6f8be2c21.png)
+    background: url(./assets/images/IMG_20240209_223824_870.png)
       no-repeat center;
     background-size: cover;
   }

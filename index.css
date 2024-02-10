@@ -1310,9 +1310,12 @@ body {
   white-space: nowrap;
   z-index: 62;
 }
+.testimonials-div{
+    display: flex;
+    justify-content: center;
+}
 .testimonials-3 {
   display: flex;
-  justify-content: center;
   gap: 3rem;
   margin-top: 1rem;
 }
@@ -3529,15 +3532,17 @@ body {
     white-space: nowrap;
     z-index: 62;
   }
-  .testimonials-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3rem;
-    margin-top: 7rem;
-    position: absolute;
-    margin-left: 1.2rem;
-  }
+    .testimonials-div{
+        display: flex;
+        justify-content: center;
+    }
+    .testimonials-3 {
+        display: grid;
+        gap: 3rem;
+        margin-top: 7rem;
+        position: absolute;
+        margin-left: 0.3rem;
+    }
   .section-15 {
     display: flex;
     flex-direction: column;

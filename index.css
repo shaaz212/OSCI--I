@@ -2815,7 +2815,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-left: 1rem;
+    margin-left: 0.1rem;
   }
   .wrapper-6 {
     display: flex;
@@ -3050,7 +3050,7 @@ body {
   .chooose {
     position: relative;
     background-color: #fff;
-    height: 105vh;
+    height: 110vh;
   }
   .choose-div{
       display: flex;

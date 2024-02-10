@@ -2510,7 +2510,7 @@ body {
   }
   .things-3 {
     display: grid;
-    margin-left: 0.5rem;
+    margin-left: 0rem;
     margin-top: 4rem;
     gap: 3rem;
   }

@@ -2426,7 +2426,7 @@ body {
   .text-div {
     display: grid;
     margin-top: -39rem;
-    margin-left: 3rem;
+    margin-left: 4rem;
     position: absolute;
     gap: 5rem;
   }
